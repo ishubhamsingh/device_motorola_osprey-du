@@ -9,6 +9,9 @@ etc/acdbdata/Hdmi_cal.acdb
 etc/acdbdata/Headset_cal.acdb
 etc/acdbdata/Speaker_cal.acdb
 
+# Bluetooth
+vendor/lib/libbt-vendor.so
+
 # Camera
 bin/mm-qcamera-daemon
 lib/libadvalgcore.so
