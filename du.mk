@@ -13,6 +13,10 @@
 # limitations under the License.
 
 $(call inherit-product, device/motorola/osprey/full_osprey.mk)
+$(call inherit-product, vendor/du/config/common_full_phone.mk)
+
+# Release name
+PRODUCT_RELEASE_NAME := osprey
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 720
