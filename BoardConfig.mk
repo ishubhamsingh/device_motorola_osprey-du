@@ -30,13 +30,6 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_osprey
 # Kernel
 TARGET_KERNEL_CONFIG := osprey_defconfig
 
-# Kernel Toolchain
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.9/bin
-KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
-
-# Rom Toolchain
-TARGET_GCC_VERSION_EXP := 4.9
-
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 16777216     # 16384 * 1024 mmcblk0p31
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 16879616 # 16484 * 1024 mmcblk0p32
