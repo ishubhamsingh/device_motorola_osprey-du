@@ -46,7 +46,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     motoactions
     
-# Actions
-PRODUCT_PACKAGES += \    
+# CAF Snap Camera
+PRODUCT_PACKAGES += \
     SnapdragonCamera
 
