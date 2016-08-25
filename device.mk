@@ -48,5 +48,5 @@ PRODUCT_PACKAGES += \
     
 # CAF Snap Camera
 PRODUCT_PACKAGES += \
-    SnapdragonCamera
+    Snap
 
